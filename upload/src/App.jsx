@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import * as pdfjsLib from "pdfjs-dist";
 import Tesseract from "tesseract.js";
-import './app.css';
+import './App.css';
 
 // --- Correct Worker Setup for Vite ---
 pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(
