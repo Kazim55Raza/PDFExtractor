@@ -77,7 +77,7 @@ export default function App() {
 
   return (
     <div style={{ padding: "20px", maxWidth: "700px", margin: "auto" }}>
-      <h2>Upload Your Second CV</h2>
+      <h2>Upload Your Final CV</h2>
 
       <input type="file" accept=".pdf,image/*" onChange={handleFileChange} />
 
